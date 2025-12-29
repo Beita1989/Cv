@@ -43,7 +43,7 @@ const DATA = {
       "Networking (Cisco, VLANs, routing)",
       "Firewalls (pfSense, iptables)",
       "Sistemas (Linux, Windows Server)",
-      "Docker, VirtualBox, Wireshark"
+      "Docker, VirtualBox, Wireshark, Cloudflare"
     ],
     skillsLang: [
       "Inglés: nivel profesional (B2 aprox.)",
