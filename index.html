@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beatriz Rodríguez — IT / Cybersecurity</title>
+  <meta name="description" content="CV web bilingüe — ASIR / Networks / Cybersecurity. Portfolio y experiencia." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="dot"></span>
+      <span id="nameTop">Beatriz Rodríguez</span>
+    </div>
+
+    <nav class="nav">
+      <a href="#about" id="navAbout">Perfil</a>
+      <a href="#skills" id="navSkills">Skills</a>
+      <a href="#projects" id="navProjects">Proyectos</a>
+      <a href="#experience" id="navExp">Experiencia</a>
+      <a href="#education" id="navEdu">Educación</a>
+      <a href="#certs" id="navCerts">Certificaciones</a>
+      <a href="#contact" id="navContact">Contacto</a>
+    </nav>
+
+    <div class="actions">
+      <button id="langBtn" class="btn ghost" type="button">EN</button>
+      <button id="themeBtn" class="btn ghost" type="button">Modo</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero reveal" id="about">
+      <div>
+        <p class="kicker" id="kicker">Australia · Remote-ready</p>
+        <h1 id="headline">
+          IT Technician (ASIR) · Cybersecurity Technician · Networks · Linux · Firewalls · Docker
+        </h1>
+
+        <p class="lead" id="summary">
+          I’m a qualified IT Systems and Network Administration Technician (ASIR) with hands-on experience in
+          network administration, firewall configuration (pfSense), virtualization (VMware, VirtualBox), Docker
+          containers, and both Windows and Linux environments.
+        </p>
+
+        <div class="cta">
+          <a class="btn" href="#projects" id="ctaProjects">Ver proyectos</a>
+          <a class="btn ghost" href="#contact" id="ctaContact">Contactar</a>
+        </div>
+
+        <div class="chips">
+          <span class="chip">pfSense</span>
+          <span class="chip">VLANs</span>
+          <span class="chip">Linux</span>
+          <span class="chip">Docker</span>
+          <span class="chip">VirtualBox</span>
+          <span class="chip">Wireshark</span>
+        </div>
+      </div>
+
+      <aside class="card reveal">
+        <h3 id="cardTitle">Enfoque</h3>
+        <ul id="focusList"></ul>
+        <div class="links">
+          <a id="linkLinkedIn" href="https://www.linkedin.com/in/beatriz-rodriguez-ruiz-de-pascual-270a55144" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a id="linkGitHub" href="https://github.com/Beita1989" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-head reveal">
+        <h2 id="skillsTitle">Skills</h2>
+        <p id="skillsSubtitle">Competencias clave para Sysadmin / Network / Blue Team.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card reveal">
+          <h3 id="skillsTechTitle">Técnicas</h3>
+          <ul id="skillsTech"></ul>
+        </div>
+        <div class="card reveal">
+          <h3 id="skillsOtherTitle">Idiomas</h3>
+          <ul id="skillsLang"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-head reveal">
+        <h2 id="projectsTitle">Proyectos</h2>
+        <p id="projectsSubtitle">Portfolios públicos para mostrar trabajo real.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card project reveal">
+          <div class="card-top">
+            <h3>Blue Team SOC Lab — Wazuh + Sysmon</h3>
+            <span class="badge" id="badgeBlue">Blue Team</span>
+          </div>
+          <p id="projBlueDesc">
+            Lab reproducible: telemetría Sysmon, validación con queries, log samples sanitizados, runbooks y MITRE mapping.
+          </p>
+          <div class="actions">
+            <a class="btn small" href="https://github.com/Beita1989/Blue-team-wazuh-soc-lab" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </article>
+
+        <article class="card project reveal">
+          <div class="card-top">
+            <h3>TFG ASIR — pfSense + Home Assistant + Segmentación</h3>
+            <span class="badge" id="badgeNet">Network</span>
+          </div>
+          <p id="projTfgDesc">
+            Proyecto de segmentación (Admin/IoT/Invitados) con reglas de firewall, VPN y controles para elevar la seguridad doméstica.
+          </p>
+          <div class="actions">
+            <a class="btn small" href="https://github.com/Beita1989/tfg-asir-pfsense-homeassistant-segmentation" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-head reveal">
+        <h2 id="expTitle">Experiencia</h2>
+        <p id="expSubtitle">Historial profesional.</p>
+      </div>
+      <div class="card reveal">
+        <ul id="expList"></ul>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-head reveal">
+        <h2 id="eduTitle">Educación</h2>
+      </div>
+      <div class="card reveal">
+        <ul id="eduList"></ul>
+      </div>
+    </section>
+
+    <section class="section" id="certs">
+      <div class="section-head reveal">
+        <h2 id="certsTitle">Certificaciones</h2>
+      </div>
+      <div class="card reveal">
+        <ul id="certsList"></ul>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-head reveal">
+        <h2 id="contactTitle">Contacto</h2>
+      </div>
+      <div class="card reveal">
+        <p><strong>Email:</strong> <a id="emailLink" href="mailto:beatrizrodriguez_3@hotmail.com">beatrizrodriguez_3@hotmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/beatriz-rodriguez-ruiz-de-pascual-270a55144" target="_blank" rel="noreferrer">beatriz-rodriguez-ruiz-de-pascual</a></p>
+        <p><strong>Location:</strong> <span id="location">Australia</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> <span id="nameFooter">Beatriz Rodríguez</span></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
